@@ -1,0 +1,289 @@
+.ham-burger i{
+    font-size: 26px;
+   height: 35px;
+   width: 35px;
+   color: #00effb;
+   padding: 6px;
+   display: none;
+}
+
+@media(max-width:800px) {
+    /* Hamburger Start */
+    header{
+        padding: 15px;
+        position: fixed;
+        /* background-color: #0c0b0b; */
+    }
+    .ham-burger i{
+        display: inline-block;
+    }
+    .navbar{
+        position: absolute;
+        background-color: #0c0b0b;
+        width: 100%;
+        left: 0;
+        top: 69px;
+        padding: 0;
+        justify-content: center;
+        display: none;
+    }
+    header .navbar ul{
+        padding: 5px 0;
+    }
+    header .navbar ul li {
+        display: block;
+        margin: auto;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    header .navbar ul li a{
+        line-height: 37px;
+        font-weight: 600;
+    }
+    header .navbar ul li a:hover{
+        color: #00effb;
+    }
+    header .navbar ul li a::before {
+        display: none;
+    }
+    
+    header .navbar ul li a.active {
+       color: #00effb;
+    }
+    
+
+
+
+
+
+    .contact-section .contact-form {
+        padding: 50px 20px;
+    }
+}
+@media(max-width:769px) {
+    .team-section .box {
+        display: flex;
+        margin: 50px auto;
+    }
+    .blog-section .blog-content .box {
+        margin-left: 100px;
+    }
+    .popup-box .popup-content {
+        width: calc(100% - 30px);
+    }
+    .message-section .message-text{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-left: 12px;
+    }
+    .message-section .btn{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .message-section .btn {
+        margin-top: 10px;
+        text-align: left;
+    }
+}
+
+@media(max-width:600px) {
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .home-section .home-content .block {
+        flex: 0 0 80%;
+        max-width: 80%;
+    }
+    .home-content {
+        padding-top: 120px;
+    }
+    .home-section .home-content p {
+        font-size: 12px;
+    }
+    .home-section .home-content h2 {
+        font-size: 1.5rem;
+    }
+    .home-section .home-content h5 {
+        font-size: 1rem;
+    }
+    .port-section .port-content .project-1 .text-1 {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+    .port-section .port-content .project-1 .img-1 {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+    .blog-section .blog-content .box {
+        margin-left: 80px;
+    }
+}
+
+@media(max-width:530px) {
+    .blog-section .blog-content .box {
+        margin-left: 50px;
+    }
+}
+
+@media(max-width:455px) {
+    .heading {
+        width: 230px;
+    }
+    .heading h5 {
+        font-size: 17px;
+    }
+    .heading h5::before {
+        width: 179%;
+        transform: rotate(60deg);
+    }
+    .home-section .home-content .block {
+        flex: 0 0 90%;
+        max-width: 90%;
+    }
+    .about-section .about-img img {
+        max-width: 300px;
+    }
+    .about-section .about-content h4 {
+        font-size: 14px;
+    }
+    .about-section .about-content h2 {
+        font-size: 22px;
+    }
+    .about-section .about-content .info .list p {
+        font-size: 13px;
+    }
+    .about-section .about-content p {
+        font-size: 10px;
+    }
+    .service-section .service-content p {
+        font-size: 12px;
+    }
+    .blog-section .blog-content .box {
+        margin-left: 25px;
+    }
+    .port-section .port-content .project-1 .text-1 h4 {
+        font-size: 1.2rem;
+    }
+    .port-section .port-content .project-1 .text-1 a {
+        font-size: 12px;
+    }
+    .blog-section .blog-content .box .info .btn {
+        font-size: 14px;
+    }
+    .popup-box .popup-body p {
+        font-size: 13px;
+    }
+    .popup-box .popup-header h5 {
+        font-size: 18px;
+    }
+    .popup-box .popup-footer .btn {
+        font-size: 14px;
+    }
+    .testimonial-section .testimonial-content .testi-slider .slide .img {
+        flex: 0 0 80px;
+        max-width: 80px;
+        margin-left: 5px;
+    }
+    .testimonial-section .testimonial-content .testi-slider .slide p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .testimonial-section .testimonial-content .testi-slider .slide h6 {
+        font-size: 1rem;
+    }
+    .message-section .message-text h4{
+        font-size: 1rem;
+    }
+    .message-section .btn a{
+        font-size: 0.8rem;
+    }
+    .contact-section .contact-form a{
+        font-size: 13px;
+    }
+    
+}
+
+.blog-section .blog-content .box .info h5 {
+    font-size: 16px;
+}
+
+.blog-section .blog-content .box .info p {
+    font-size: 10px;
+}
+
+.blog-section .blog-content .box .info .btn {
+    font-size: 14px;
+}
+
+
+@media(max-width:430px) {
+    .blog-section .blog-content .box .img img {
+        max-width: 290px;
+    }
+    .blog-section .blog-content .box {
+        flex: 0 0 290px;
+        max-width: 290px;
+    }
+}
+
+@media(max-width:415px) {
+    .blog-section .blog-content .box .img img {
+        max-width: 285px;
+    }
+    .blog-section .blog-content .box {
+        flex: 0 0 285px;
+        max-width: 285px;
+    }
+}
+
+@media(max-width:400px) {
+    .blog-section .blog-content .box .img img {
+        max-width: 275px;
+    }
+    .blog-section .blog-content .box {
+        flex: 0 0 275px;
+        max-width: 275px;
+    }
+    .heading h5 {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:385px) {
+    .about-section .about-img img {
+        max-width: 250px;
+    }
+    .blog-section .blog-content .box .img img {
+        max-width: 250px;
+    }
+    .blog-section .blog-content .box {
+        flex: 0 0 250px;
+        max-width: 250px;
+    }
+    .team-section .box {
+        width: 240px;
+        height: 300px;
+    }
+    .team-section .box .imgBx img {
+        max-height: 276px;
+    }
+    .testimonial-section .testimonial-content .testi-slider .slide .img img{
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@media(max-width:335px) {
+    .blog-section .blog-content .box .img img {
+        max-width: 220px;
+    }
+    .blog-section .blog-content .box {
+        flex: 0 0 220px;
+        max-width: 220px;
+    }
+    .testimonial-section .testimonial-content .testi-slider .slide p {
+        font-size: 10px;
+    }
+}
