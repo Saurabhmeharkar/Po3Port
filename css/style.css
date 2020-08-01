@@ -128,7 +128,7 @@ header .navbar ul li a.active::before {
 .home-section {
     min-height: 100vh;
     display: flex;
-    background-image: url('/img/blogs/1.jpg');
+    background-image: url("/img/back-port.jpg");
     background-position: center;
     background-size: cover;
 }
